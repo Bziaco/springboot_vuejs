@@ -1,6 +1,6 @@
-# wdt
+# frontend
 
-> wdt
+> A Vue.js project
 
 ## Build Setup
 
