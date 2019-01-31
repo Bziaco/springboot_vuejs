@@ -1,15 +1,16 @@
 <template>
   <div>
     <Top></Top>
-    <Layout></Layout>
+    <Main></Main>
   </div>
 </template>
 
 <script>
   import Top from './components/Top'
-  import Layout from './components/Layout'
+  import Main from './components/Main'
+
   export default {
-    components : { Top,Layout }
+    components : { Top,Main }
   }
 </script>
 
