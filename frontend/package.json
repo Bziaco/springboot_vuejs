@@ -11,10 +11,16 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "bootstrap": "^4.2.1",
     "bootstrap-vue": "^2.0.0-rc.11",
+    "codemirror": "^5.43.0",
+    "codemirror-md": "^0.1.1",
+    "cors": "^2.8.5",
+    "es6-promise": "^4.2.5",
     "jquery": "^3.3.1",
     "vue": "^2.5.2",
+    "vue-codemirror": "^4.0.6",
     "vue-jstree": "^2.1.6",
     "vue-router": "^3.0.1",
     "vue-split-pane": "0.0.8",

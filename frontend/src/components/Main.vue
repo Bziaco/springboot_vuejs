@@ -24,6 +24,9 @@
           <b-tab title="Dependents">
             <dependents></dependents>
           </b-tab>
+          <b-tab title="QueryTool">
+            <QueryTool></QueryTool>
+          </b-tab>
         </b-tabs>
       </b-card>
     </SplitArea>
@@ -38,13 +41,14 @@
   import Statistics from './panel/Statistics'
   import Dependencies from './panel/Dependencies'
   import Dependents from './panel/Dependents'
+  import QueryTool from './panel/QueryTool'
 
   export default {
     components : {
       Left,Dashboard
       ,Sql,Statistics
       ,Dependencies,Dependents
-      ,Properties
+      ,Properties,QueryTool
     }
   }
 </script>
