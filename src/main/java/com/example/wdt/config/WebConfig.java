@@ -15,10 +15,10 @@ public class WebConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/api/*")
-                        .allowedOrigins("*")
-                        .allowedMethods(HttpMethod.GET.name())
-                        .allowCredentials(false)
-                        .maxAge(3600);
+                    .allowedOrigins("*")
+                    .allowedMethods(HttpMethod.GET.name())
+                    .allowCredentials(false)
+                    .maxAge(3600);
             }
         };
     }
