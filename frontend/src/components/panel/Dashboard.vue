@@ -18,8 +18,11 @@
     methods: {
       searchTerm: function () {
         const vm = this
-        axios.get('http://localhost:3000/api/test')
-          .then(function(response) {
+        axios.get('http://localhost:3000/api/test',{
+          params: {
+            title: 'vue.js'
+          }
+        }).then(function(response) {
              vm.dash = response.data;
           });
       }
